@@ -18,11 +18,10 @@ npm run build
 
 ## GitHub Pages
 
-The GitHub Actions workflow builds and deploys the site whenever changes are
-pushed to `main`. In repository settings, set **Pages → Build and deployment →
-Source** to **GitHub Actions**.
-
-The deployed site URL is <https://hamidreza-wq.github.io/interpurting/>.
+GitHub Pages publishes the built site from the `docs/` folder on `main` at
+<https://hamidreza-wq.github.io/interpurting/>. To update the published site,
+run `npm run build`, copy the contents of `dist/` into `docs/`, and push the
+updated `docs/` folder.
 
 Sign-in and registration are demo-only client-side flows. Do not use them for
 real accounts until an authentication provider is connected.
