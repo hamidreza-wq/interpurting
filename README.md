@@ -25,3 +25,7 @@ updated `docs/` folder.
 
 Sign-in and registration are demo-only client-side flows. Do not use them for
 real accounts until an authentication provider is connected.
+
+## Portfolio
+
+Read more about this project on [Hamid Reza Bayat's portfolio](https://hamidbayat.co.uk/projects/interpret-language-studio).
